@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import gspread
 
 #page setup
 st.set_page_config(layout="wide")
