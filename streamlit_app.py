@@ -23,3 +23,5 @@ array2= ["Fire","Earth","Air","Water",
          "Fire","Earth","Air","Water"]
 if len("array1") == len("array2"):
         df= pd.DataFrame({'Sign_ID':array1,'Elements':array2})
+    else:
+    print("Arrays must be of the same length.")
